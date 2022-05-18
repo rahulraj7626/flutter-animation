@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animation/animations/tween_animation/title_widget.dart';
+import 'package:flutter_animation/buitin_animations/tween_animation/title_widget.dart';
 
 class TweenBuilder extends StatefulWidget {
   const TweenBuilder({Key? key}) : super(key: key);

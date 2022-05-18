@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class BuiltInAnimation extends StatefulWidget {
-  const BuiltInAnimation({Key? key}) : super(key: key);
+class AnimContainer extends StatefulWidget {
+  const AnimContainer({Key? key}) : super(key: key);
 
   @override
-  State<BuiltInAnimation> createState() => _BuiltInAnimationState();
+  State<AnimContainer> createState() => _AnimContainerState();
 }
 
-class _BuiltInAnimationState extends State<BuiltInAnimation> {
+class _AnimContainerState extends State<AnimContainer> {
   double _margin = 0;
   double _opacity = 1;
   double _width = 100;
