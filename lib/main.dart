@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'buitin_animations/hero_animation/hero_animation.dart';
-import 'buitin_animations/tween_animation/tween_animation.dart';
+import 'implicit_animations/hero_animation/hero_animation.dart';
 
 void main() {
   runApp(const MyApp());
