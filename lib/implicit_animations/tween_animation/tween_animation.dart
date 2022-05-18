@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animation/buitin_animations/tween_animation/title_widget.dart';
+import 'package:flutter_animation/implicit_animations/tween_animation/title_widget.dart';
 
 class TweenBuilder extends StatefulWidget {
   const TweenBuilder({Key? key}) : super(key: key);
@@ -11,6 +11,6 @@ class TweenBuilder extends StatefulWidget {
 class _TweenBuilderState extends State<TweenBuilder> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: TitleWidget()));
+    return const Scaffold(body: Center(child: TitleWidget()));
   }
 }
